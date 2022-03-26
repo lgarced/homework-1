@@ -19,7 +19,6 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
 nav {
     color: #d9dcd6;
     padding-top: 15px;
@@ -61,7 +60,34 @@ article {
     display: inline-block;
     margin-left: 20px;
 }
+article section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+article section img {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+.float-right{
+   float: left;
+   margin-right: 25px;
 
+}
+.float-right{
+    float: right;
+    margin-left: 25px;
+
+}
+
+article section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,25 +112,6 @@ aside div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-article section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-article section img {
-    float: left;
-    margin-right: 25px;
-    max-height: 200px;
-}
-
-article secton h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 footer {
     padding: 30px;
